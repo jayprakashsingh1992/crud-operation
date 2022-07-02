@@ -1,0 +1,20 @@
+.mydata-table{
+    text-align:center;
+}
+.mytable-icon {
+    cursor:pointer;
+    font-size: 20px !important;
+}
+.bi-eye{
+    color:dodgerblue;
+}
+.bi-pencil{
+    color:seagreen;
+}
+.bi-recycle{
+    color:red;
+}
+.genders {
+    text-align: center;
+    margin: 0 0 2% 0;
+}

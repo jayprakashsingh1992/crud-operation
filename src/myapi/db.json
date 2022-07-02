@@ -1,0 +1,17 @@
+{
+  "contacts": [
+    {
+      "salutation": "Mr",
+      "fname": "Mahendra",
+      "mname": "Singh",
+      "lname": "Dhoni",
+      "mobile": "6874520193",
+      "email": "mahendra@gmail.com",
+      "password": "1234",
+      "cpassword": "1234",
+      "id": 3,
+      "address": "Btm layout",
+      "dob": "1980-12-02"
+    }
+  ]
+}

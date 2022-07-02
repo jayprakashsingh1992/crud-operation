@@ -1,0 +1,9 @@
+.mynavlink{
+    color: #fff;
+    padding: 0 8px;
+    margin: 3px 0;
+    text-decoration: none;
+}
+.mynavlink:hover{
+    color:#adb5bd !important;
+}

@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Topbar from "./components/Topbar";
+import Home from "./components/Home";
+import AddUser from "./components/AddUser";
+import EditUser from "./components/EditUser";
+import User from "./components/User";
+import Users from "./components/Users";
+import {Route} from "react-router-dom";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <Topbar/>
+      <Route exact path="/"><Home/></Route>
+      <Route exact path="/add-user"><AddUser/></Route>
+      <Route exact path="/edit-user/:id"><EditUser/></Route>
+      <Route exact path="/user/:id"><User/></Route>
+      <Route exact path="/users"><Users/></Route>
+    </React.Fragment>
   );
 }
-
-export default App;

@@ -1,0 +1,14 @@
+.mytable-row {
+    margin: 0 0 0 1px;
+}
+.mytable-col {
+    border: 1px solid #5f6a6aab;
+    border-collapse: collapse;
+}
+.mytable-col.text-right {
+    font-weight: bold;
+    font-size: 15px;
+}
+.profile-pic {
+    text-align: center;
+}
